@@ -29,19 +29,24 @@ public interface IMondialRelayService {
 	/**
 	 * Recherche le suivi d'un envoi.
 	 * 
-	 * @param numeroSuivi le numéro de suivi
-	 * @param langue      langue de retour souhaitée
+	 * @param numeroSuivi
+	 *            le numéro de suivi
 	 * @return le suivi
-	 * @throws MRException en cas d'erreur
+	 * @throws MRException
+	 *             en cas d'erreur
 	 */
 	MRSuiviColis getSuivi(String numeroSuivi) throws MRException;
 
 	/**
 	 * Recherche le suivi d'un envoi.
 	 * 
-	 * @param numeroSuivi le numéro de suivi
+	 * @param numeroSuivi
+	 *            le numéro de suivi
+	 * @param langue
+	 *            langue de retour souhaitée
 	 * @return le suivi
-	 * @throws MRException en cas d'erreur
+	 * @throws MRException
+	 *             en cas d'erreur
 	 */
 	MRSuiviColis getSuivi(String numeroSuivi, String langue) throws MRException;
 }
