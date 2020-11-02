@@ -3,16 +3,19 @@ package org.dajlab.mondialrelayapi.soap;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour ArrayOfCommune complex type.
+ * <p>
+ * Classe Java pour ArrayOfCommune complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType name="ArrayOfCommune">
@@ -29,41 +32,39 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ArrayOfCommune", propOrder = {
-    "commune"
-})
+@XmlType(name = "ArrayOfCommune", propOrder = { "commune" })
 public class ArrayOfCommune {
 
-    @XmlElement(name = "Commune", nillable = true)
-    protected List<Commune> commune;
+	@XmlElement(name = "Commune", nillable = true)
+	protected List<Commune> commune;
 
-    /**
-     * Gets the value of the commune property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the commune property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getCommune().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link Commune }
-     * 
-     * 
-     */
-    public List<Commune> getCommune() {
-        if (commune == null) {
-            commune = new ArrayList<Commune>();
-        }
-        return this.commune;
-    }
+	/**
+	 * Gets the value of the commune property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a snapshot.
+	 * Therefore any modification you make to the returned list will be present
+	 * inside the JAXB object. This is why there is not a <CODE>set</CODE> method
+	 * for the commune property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getCommune().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link Commune }
+	 * 
+	 * 
+	 */
+	public List<Commune> getCommune() {
+		if (commune == null) {
+			commune = new ArrayList<Commune>();
+		}
+		return this.commune;
+	}
 
 }

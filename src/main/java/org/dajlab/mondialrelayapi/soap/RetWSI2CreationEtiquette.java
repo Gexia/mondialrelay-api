@@ -6,11 +6,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour ret_WSI2_CreationEtiquette complex type.
+ * <p>
+ * Classe Java pour ret_WSI2_CreationEtiquette complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType name="ret_WSI2_CreationEtiquette">
@@ -28,65 +30,54 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ret_WSI2_CreationEtiquette", propOrder = {
-    "expeditionNum",
-    "urlEtiquette"
-})
-public class RetWSI2CreationEtiquette
-    extends Ret
-{
+@XmlType(name = "ret_WSI2_CreationEtiquette", propOrder = { "expeditionNum", "urlEtiquette" })
+public class RetWSI2CreationEtiquette extends Ret {
 
-    @XmlElement(name = "ExpeditionNum")
-    protected String expeditionNum;
-    @XmlElement(name = "URL_Etiquette")
-    protected String urlEtiquette;
+	@XmlElement(name = "ExpeditionNum")
+	protected String expeditionNum;
+	@XmlElement(name = "URL_Etiquette")
+	protected String urlEtiquette;
 
-    /**
-     * Obtient la valeur de la propriété expeditionNum.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getExpeditionNum() {
-        return expeditionNum;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© expeditionNum.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getExpeditionNum() {
+		return expeditionNum;
+	}
 
-    /**
-     * Définit la valeur de la propriété expeditionNum.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setExpeditionNum(String value) {
-        this.expeditionNum = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© expeditionNum.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setExpeditionNum(String value) {
+		this.expeditionNum = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété urlEtiquette.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getURLEtiquette() {
-        return urlEtiquette;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© urlEtiquette.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getURLEtiquette() {
+		return urlEtiquette;
+	}
 
-    /**
-     * Définit la valeur de la propriété urlEtiquette.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setURLEtiquette(String value) {
-        this.urlEtiquette = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© urlEtiquette.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setURLEtiquette(String value) {
+		this.urlEtiquette = value;
+	}
 
 }

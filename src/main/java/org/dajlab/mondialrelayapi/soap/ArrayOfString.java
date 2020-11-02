@@ -3,16 +3,19 @@ package org.dajlab.mondialrelayapi.soap;
 
 import java.util.ArrayList;
 import java.util.List;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour ArrayOfString complex type.
+ * <p>
+ * Classe Java pour ArrayOfString complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType name="ArrayOfString">
@@ -29,41 +32,39 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ArrayOfString", propOrder = {
-    "string"
-})
+@XmlType(name = "ArrayOfString", propOrder = { "string" })
 public class ArrayOfString {
 
-    @XmlElement(nillable = true)
-    protected List<String> string;
+	@XmlElement(nillable = true)
+	protected List<String> string;
 
-    /**
-     * Gets the value of the string property.
-     * 
-     * <p>
-     * This accessor method returns a reference to the live list,
-     * not a snapshot. Therefore any modification you make to the
-     * returned list will be present inside the JAXB object.
-     * This is why there is not a <CODE>set</CODE> method for the string property.
-     * 
-     * <p>
-     * For example, to add a new item, do as follows:
-     * <pre>
-     *    getString().add(newItem);
-     * </pre>
-     * 
-     * 
-     * <p>
-     * Objects of the following type(s) are allowed in the list
-     * {@link String }
-     * 
-     * 
-     */
-    public List<String> getString() {
-        if (string == null) {
-            string = new ArrayList<String>();
-        }
-        return this.string;
-    }
+	/**
+	 * Gets the value of the string property.
+	 * 
+	 * <p>
+	 * This accessor method returns a reference to the live list, not a snapshot.
+	 * Therefore any modification you make to the returned list will be present
+	 * inside the JAXB object. This is why there is not a <CODE>set</CODE> method
+	 * for the string property.
+	 * 
+	 * <p>
+	 * For example, to add a new item, do as follows:
+	 * 
+	 * <pre>
+	 * getString().add(newItem);
+	 * </pre>
+	 * 
+	 * 
+	 * <p>
+	 * Objects of the following type(s) are allowed in the list {@link String }
+	 * 
+	 * 
+	 */
+	public List<String> getString() {
+		if (string == null) {
+			string = new ArrayList<String>();
+		}
+		return this.string;
+	}
 
 }

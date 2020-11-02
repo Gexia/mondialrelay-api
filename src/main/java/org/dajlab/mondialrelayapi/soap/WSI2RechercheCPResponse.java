@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2RechercheCPResult"
-})
+@XmlType(name = "", propOrder = { "wsi2RechercheCPResult" })
 @XmlRootElement(name = "WSI2_RechercheCPResponse")
 public class WSI2RechercheCPResponse {
 
-    @XmlElement(name = "WSI2_RechercheCPResult")
-    protected RetWSI2RechercheCP wsi2RechercheCPResult;
+	@XmlElement(name = "WSI2_RechercheCPResult")
+	protected RetWSI2RechercheCP wsi2RechercheCPResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2RechercheCPResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI2RechercheCP }
-     *     
-     */
-    public RetWSI2RechercheCP getWSI2RechercheCPResult() {
-        return wsi2RechercheCPResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2RechercheCPResult.
+	 * 
+	 * @return possible object is {@link RetWSI2RechercheCP }
+	 * 
+	 */
+	public RetWSI2RechercheCP getWSI2RechercheCPResult() {
+		return wsi2RechercheCPResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2RechercheCPResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI2RechercheCP }
-     *     
-     */
-    public void setWSI2RechercheCPResult(RetWSI2RechercheCP value) {
-        this.wsi2RechercheCPResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2RechercheCPResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI2RechercheCP }
+	 * 
+	 */
+	public void setWSI2RechercheCPResult(RetWSI2RechercheCP value) {
+		this.wsi2RechercheCPResult = value;
+	}
 
 }

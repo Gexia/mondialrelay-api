@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2TracingColisDetailleResult"
-})
+@XmlType(name = "", propOrder = { "wsi2TracingColisDetailleResult" })
 @XmlRootElement(name = "WSI2_TracingColisDetailleResponse")
 public class WSI2TracingColisDetailleResponse {
 
-    @XmlElement(name = "WSI2_TracingColisDetailleResult")
-    protected RetWSI2TracingColisDetaille wsi2TracingColisDetailleResult;
+	@XmlElement(name = "WSI2_TracingColisDetailleResult")
+	protected RetWSI2TracingColisDetaille wsi2TracingColisDetailleResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2TracingColisDetailleResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI2TracingColisDetaille }
-     *     
-     */
-    public RetWSI2TracingColisDetaille getWSI2TracingColisDetailleResult() {
-        return wsi2TracingColisDetailleResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2TracingColisDetailleResult.
+	 * 
+	 * @return possible object is {@link RetWSI2TracingColisDetaille }
+	 * 
+	 */
+	public RetWSI2TracingColisDetaille getWSI2TracingColisDetailleResult() {
+		return wsi2TracingColisDetailleResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2TracingColisDetailleResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI2TracingColisDetaille }
-     *     
-     */
-    public void setWSI2TracingColisDetailleResult(RetWSI2TracingColisDetaille value) {
-        this.wsi2TracingColisDetailleResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2TracingColisDetailleResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI2TracingColisDetaille }
+	 * 
+	 */
+	public void setWSI2TracingColisDetailleResult(RetWSI2TracingColisDetaille value) {
+		this.wsi2TracingColisDetailleResult = value;
+	}
 
 }

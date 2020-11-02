@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -43,442 +45,379 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "enseigne",
-    "pays",
-    "numPointRelais",
-    "ville",
-    "cp",
-    "latitude",
-    "longitude",
-    "taille",
-    "poids",
-    "action",
-    "delaiEnvoi",
-    "rayonRecherche",
-    "typeActivite",
-    "nace",
-    "nombreResultats",
-    "security"
-})
+@XmlType(name = "", propOrder = { "enseigne", "pays", "numPointRelais", "ville", "cp", "latitude", "longitude",
+		"taille", "poids", "action", "delaiEnvoi", "rayonRecherche", "typeActivite", "nace", "nombreResultats",
+		"security" })
 @XmlRootElement(name = "WSI4_PointRelais_Recherche")
 public class WSI4PointRelaisRecherche {
 
-    @XmlElement(name = "Enseigne")
-    protected String enseigne;
-    @XmlElement(name = "Pays")
-    protected String pays;
-    @XmlElement(name = "NumPointRelais")
-    protected String numPointRelais;
-    @XmlElement(name = "Ville")
-    protected String ville;
-    @XmlElement(name = "CP")
-    protected String cp;
-    @XmlElement(name = "Latitude")
-    protected String latitude;
-    @XmlElement(name = "Longitude")
-    protected String longitude;
-    @XmlElement(name = "Taille")
-    protected String taille;
-    @XmlElement(name = "Poids")
-    protected String poids;
-    @XmlElement(name = "Action")
-    protected String action;
-    @XmlElement(name = "DelaiEnvoi")
-    protected String delaiEnvoi;
-    @XmlElement(name = "RayonRecherche")
-    protected String rayonRecherche;
-    @XmlElement(name = "TypeActivite")
-    protected String typeActivite;
-    @XmlElement(name = "NACE")
-    protected String nace;
-    @XmlElement(name = "NombreResultats", required = true, type = Integer.class, nillable = true)
-    protected Integer nombreResultats;
-    @XmlElement(name = "Security")
-    protected String security;
+	@XmlElement(name = "Enseigne")
+	protected String enseigne;
+	@XmlElement(name = "Pays")
+	protected String pays;
+	@XmlElement(name = "NumPointRelais")
+	protected String numPointRelais;
+	@XmlElement(name = "Ville")
+	protected String ville;
+	@XmlElement(name = "CP")
+	protected String cp;
+	@XmlElement(name = "Latitude")
+	protected String latitude;
+	@XmlElement(name = "Longitude")
+	protected String longitude;
+	@XmlElement(name = "Taille")
+	protected String taille;
+	@XmlElement(name = "Poids")
+	protected String poids;
+	@XmlElement(name = "Action")
+	protected String action;
+	@XmlElement(name = "DelaiEnvoi")
+	protected String delaiEnvoi;
+	@XmlElement(name = "RayonRecherche")
+	protected String rayonRecherche;
+	@XmlElement(name = "TypeActivite")
+	protected String typeActivite;
+	@XmlElement(name = "NACE")
+	protected String nace;
+	@XmlElement(name = "NombreResultats", required = true, type = Integer.class, nillable = true)
+	protected Integer nombreResultats;
+	@XmlElement(name = "Security")
+	protected String security;
 
-    /**
-     * Obtient la valeur de la propriété enseigne.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEnseigne() {
-        return enseigne;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getEnseigne() {
+		return enseigne;
+	}
 
-    /**
-     * Définit la valeur de la propriété enseigne.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEnseigne(String value) {
-        this.enseigne = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setEnseigne(String value) {
+		this.enseigne = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété pays.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPays() {
-        return pays;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© pays.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPays() {
+		return pays;
+	}
 
-    /**
-     * Définit la valeur de la propriété pays.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPays(String value) {
-        this.pays = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© pays.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPays(String value) {
+		this.pays = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété numPointRelais.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNumPointRelais() {
-        return numPointRelais;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© numPointRelais.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getNumPointRelais() {
+		return numPointRelais;
+	}
 
-    /**
-     * Définit la valeur de la propriété numPointRelais.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNumPointRelais(String value) {
-        this.numPointRelais = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© numPointRelais.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setNumPointRelais(String value) {
+		this.numPointRelais = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété ville.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVille() {
-        return ville;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© ville.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getVille() {
+		return ville;
+	}
 
-    /**
-     * Définit la valeur de la propriété ville.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVille(String value) {
-        this.ville = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© ville.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setVille(String value) {
+		this.ville = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété cp.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCP() {
-        return cp;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© cp.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCP() {
+		return cp;
+	}
 
-    /**
-     * Définit la valeur de la propriété cp.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCP(String value) {
-        this.cp = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© cp.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCP(String value) {
+		this.cp = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété latitude.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLatitude() {
-        return latitude;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© latitude.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLatitude() {
+		return latitude;
+	}
 
-    /**
-     * Définit la valeur de la propriété latitude.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLatitude(String value) {
-        this.latitude = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© latitude.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLatitude(String value) {
+		this.latitude = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété longitude.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLongitude() {
-        return longitude;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© longitude.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLongitude() {
+		return longitude;
+	}
 
-    /**
-     * Définit la valeur de la propriété longitude.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLongitude(String value) {
-        this.longitude = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© longitude.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLongitude(String value) {
+		this.longitude = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété taille.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTaille() {
-        return taille;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© taille.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTaille() {
+		return taille;
+	}
 
-    /**
-     * Définit la valeur de la propriété taille.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTaille(String value) {
-        this.taille = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© taille.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setTaille(String value) {
+		this.taille = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété poids.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPoids() {
-        return poids;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© poids.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPoids() {
+		return poids;
+	}
 
-    /**
-     * Définit la valeur de la propriété poids.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPoids(String value) {
-        this.poids = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© poids.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPoids(String value) {
+		this.poids = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété action.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAction() {
-        return action;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© action.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAction() {
+		return action;
+	}
 
-    /**
-     * Définit la valeur de la propriété action.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAction(String value) {
-        this.action = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© action.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAction(String value) {
+		this.action = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété delaiEnvoi.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getDelaiEnvoi() {
-        return delaiEnvoi;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© delaiEnvoi.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getDelaiEnvoi() {
+		return delaiEnvoi;
+	}
 
-    /**
-     * Définit la valeur de la propriété delaiEnvoi.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setDelaiEnvoi(String value) {
-        this.delaiEnvoi = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© delaiEnvoi.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setDelaiEnvoi(String value) {
+		this.delaiEnvoi = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété rayonRecherche.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRayonRecherche() {
-        return rayonRecherche;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© rayonRecherche.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getRayonRecherche() {
+		return rayonRecherche;
+	}
 
-    /**
-     * Définit la valeur de la propriété rayonRecherche.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRayonRecherche(String value) {
-        this.rayonRecherche = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© rayonRecherche.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setRayonRecherche(String value) {
+		this.rayonRecherche = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété typeActivite.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTypeActivite() {
-        return typeActivite;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© typeActivite.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTypeActivite() {
+		return typeActivite;
+	}
 
-    /**
-     * Définit la valeur de la propriété typeActivite.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTypeActivite(String value) {
-        this.typeActivite = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© typeActivite.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setTypeActivite(String value) {
+		this.typeActivite = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété nace.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNACE() {
-        return nace;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© nace.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getNACE() {
+		return nace;
+	}
 
-    /**
-     * Définit la valeur de la propriété nace.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNACE(String value) {
-        this.nace = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© nace.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setNACE(String value) {
+		this.nace = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété nombreResultats.
-     * 
-     * @return
-     *     possible object is
-     *     {@link Integer }
-     *     
-     */
-    public Integer getNombreResultats() {
-        return nombreResultats;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© nombreResultats.
+	 * 
+	 * @return possible object is {@link Integer }
+	 * 
+	 */
+	public Integer getNombreResultats() {
+		return nombreResultats;
+	}
 
-    /**
-     * Définit la valeur de la propriété nombreResultats.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link Integer }
-     *     
-     */
-    public void setNombreResultats(Integer value) {
-        this.nombreResultats = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© nombreResultats.
+	 * 
+	 * @param value
+	 *            allowed object is {@link Integer }
+	 * 
+	 */
+	public void setNombreResultats(Integer value) {
+		this.nombreResultats = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété security.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSecurity() {
-        return security;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSecurity() {
+		return security;
+	}
 
-    /**
-     * Définit la valeur de la propriété security.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSecurity(String value) {
-        this.security = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSecurity(String value) {
+		this.security = value;
+	}
 
 }

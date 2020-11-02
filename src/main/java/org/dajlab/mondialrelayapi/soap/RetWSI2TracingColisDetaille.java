@@ -6,11 +6,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour ret_WSI2_TracingColisDetaille complex type.
+ * <p>
+ * Classe Java pour ret_WSI2_TracingColisDetaille complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType name="ret_WSI2_TracingColisDetaille">
@@ -31,146 +33,124 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ret_WSI2_TracingColisDetaille", propOrder = {
-    "libelle01",
-    "relaisLibelle",
-    "relaisNum",
-    "libelle02",
-    "tracing"
-})
-public class RetWSI2TracingColisDetaille
-    extends Ret
-{
+@XmlType(name = "ret_WSI2_TracingColisDetaille", propOrder = { "libelle01", "relaisLibelle", "relaisNum", "libelle02",
+		"tracing" })
+public class RetWSI2TracingColisDetaille extends Ret {
 
-    @XmlElement(name = "Libelle01")
-    protected String libelle01;
-    @XmlElement(name = "Relais_Libelle")
-    protected String relaisLibelle;
-    @XmlElement(name = "Relais_Num")
-    protected String relaisNum;
-    @XmlElement(name = "Libelle02")
-    protected String libelle02;
-    @XmlElement(name = "Tracing")
-    protected ArrayOfRetWSI2SubTracingColisDetaille tracing;
+	@XmlElement(name = "Libelle01")
+	protected String libelle01;
+	@XmlElement(name = "Relais_Libelle")
+	protected String relaisLibelle;
+	@XmlElement(name = "Relais_Num")
+	protected String relaisNum;
+	@XmlElement(name = "Libelle02")
+	protected String libelle02;
+	@XmlElement(name = "Tracing")
+	protected ArrayOfRetWSI2SubTracingColisDetaille tracing;
 
-    /**
-     * Obtient la valeur de la propriété libelle01.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLibelle01() {
-        return libelle01;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© libelle01.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLibelle01() {
+		return libelle01;
+	}
 
-    /**
-     * Définit la valeur de la propriété libelle01.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLibelle01(String value) {
-        this.libelle01 = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© libelle01.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLibelle01(String value) {
+		this.libelle01 = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété relaisLibelle.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRelaisLibelle() {
-        return relaisLibelle;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© relaisLibelle.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getRelaisLibelle() {
+		return relaisLibelle;
+	}
 
-    /**
-     * Définit la valeur de la propriété relaisLibelle.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRelaisLibelle(String value) {
-        this.relaisLibelle = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© relaisLibelle.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setRelaisLibelle(String value) {
+		this.relaisLibelle = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété relaisNum.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getRelaisNum() {
-        return relaisNum;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© relaisNum.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getRelaisNum() {
+		return relaisNum;
+	}
 
-    /**
-     * Définit la valeur de la propriété relaisNum.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setRelaisNum(String value) {
-        this.relaisNum = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© relaisNum.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setRelaisNum(String value) {
+		this.relaisNum = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété libelle02.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLibelle02() {
-        return libelle02;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© libelle02.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLibelle02() {
+		return libelle02;
+	}
 
-    /**
-     * Définit la valeur de la propriété libelle02.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLibelle02(String value) {
-        this.libelle02 = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© libelle02.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLibelle02(String value) {
+		this.libelle02 = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété tracing.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ArrayOfRetWSI2SubTracingColisDetaille }
-     *     
-     */
-    public ArrayOfRetWSI2SubTracingColisDetaille getTracing() {
-        return tracing;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© tracing.
+	 * 
+	 * @return possible object is {@link ArrayOfRetWSI2SubTracingColisDetaille }
+	 * 
+	 */
+	public ArrayOfRetWSI2SubTracingColisDetaille getTracing() {
+		return tracing;
+	}
 
-    /**
-     * Définit la valeur de la propriété tracing.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ArrayOfRetWSI2SubTracingColisDetaille }
-     *     
-     */
-    public void setTracing(ArrayOfRetWSI2SubTracingColisDetaille value) {
-        this.tracing = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© tracing.
+	 * 
+	 * @param value
+	 *            allowed object is {@link ArrayOfRetWSI2SubTracingColisDetaille }
+	 * 
+	 */
+	public void setTracing(ArrayOfRetWSI2SubTracingColisDetaille value) {
+		this.tracing = value;
+	}
 
 }

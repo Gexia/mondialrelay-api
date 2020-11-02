@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -30,91 +32,78 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "enseigne",
-    "langue",
-    "security"
-})
+@XmlType(name = "", propOrder = { "enseigne", "langue", "security" })
 @XmlRootElement(name = "WSI2_STAT_Labels")
 public class WSI2STATLabels {
 
-    @XmlElement(name = "Enseigne")
-    protected String enseigne;
-    @XmlElement(name = "Langue")
-    protected String langue;
-    @XmlElement(name = "Security")
-    protected String security;
+	@XmlElement(name = "Enseigne")
+	protected String enseigne;
+	@XmlElement(name = "Langue")
+	protected String langue;
+	@XmlElement(name = "Security")
+	protected String security;
 
-    /**
-     * Obtient la valeur de la propriété enseigne.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEnseigne() {
-        return enseigne;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getEnseigne() {
+		return enseigne;
+	}
 
-    /**
-     * Définit la valeur de la propriété enseigne.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEnseigne(String value) {
-        this.enseigne = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setEnseigne(String value) {
+		this.enseigne = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété langue.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getLangue() {
-        return langue;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© langue.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getLangue() {
+		return langue;
+	}
 
-    /**
-     * Définit la valeur de la propriété langue.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setLangue(String value) {
-        this.langue = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© langue.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setLangue(String value) {
+		this.langue = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété security.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSecurity() {
-        return security;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSecurity() {
+		return security;
+	}
 
-    /**
-     * Définit la valeur de la propriété security.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSecurity(String value) {
-        this.security = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSecurity(String value) {
+		this.security = value;
+	}
 
 }

@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2DetailPointRelaisResult"
-})
+@XmlType(name = "", propOrder = { "wsi2DetailPointRelaisResult" })
 @XmlRootElement(name = "WSI2_DetailPointRelaisResponse")
 public class WSI2DetailPointRelaisResponse {
 
-    @XmlElement(name = "WSI2_DetailPointRelaisResult")
-    protected RetWSI2DetailPointRelais wsi2DetailPointRelaisResult;
+	@XmlElement(name = "WSI2_DetailPointRelaisResult")
+	protected RetWSI2DetailPointRelais wsi2DetailPointRelaisResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2DetailPointRelaisResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI2DetailPointRelais }
-     *     
-     */
-    public RetWSI2DetailPointRelais getWSI2DetailPointRelaisResult() {
-        return wsi2DetailPointRelaisResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2DetailPointRelaisResult.
+	 * 
+	 * @return possible object is {@link RetWSI2DetailPointRelais }
+	 * 
+	 */
+	public RetWSI2DetailPointRelais getWSI2DetailPointRelaisResult() {
+		return wsi2DetailPointRelaisResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2DetailPointRelaisResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI2DetailPointRelais }
-     *     
-     */
-    public void setWSI2DetailPointRelaisResult(RetWSI2DetailPointRelais value) {
-        this.wsi2DetailPointRelaisResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2DetailPointRelaisResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI2DetailPointRelais }
+	 * 
+	 */
+	public void setWSI2DetailPointRelaisResult(RetWSI2DetailPointRelais value) {
+		this.wsi2DetailPointRelaisResult = value;
+	}
 
 }

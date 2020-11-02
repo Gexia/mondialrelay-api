@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -31,118 +33,101 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "enseigne",
-    "num",
-    "pays",
-    "security"
-})
+@XmlType(name = "", propOrder = { "enseigne", "num", "pays", "security" })
 @XmlRootElement(name = "WSI2_DetailPointRelais")
 public class WSI2DetailPointRelais {
 
-    @XmlElement(name = "Enseigne")
-    protected String enseigne;
-    @XmlElement(name = "Num")
-    protected String num;
-    @XmlElement(name = "Pays")
-    protected String pays;
-    @XmlElement(name = "Security")
-    protected String security;
+	@XmlElement(name = "Enseigne")
+	protected String enseigne;
+	@XmlElement(name = "Num")
+	protected String num;
+	@XmlElement(name = "Pays")
+	protected String pays;
+	@XmlElement(name = "Security")
+	protected String security;
 
-    /**
-     * Obtient la valeur de la propriété enseigne.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEnseigne() {
-        return enseigne;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getEnseigne() {
+		return enseigne;
+	}
 
-    /**
-     * Définit la valeur de la propriété enseigne.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEnseigne(String value) {
-        this.enseigne = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setEnseigne(String value) {
+		this.enseigne = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété num.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getNum() {
-        return num;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© num.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getNum() {
+		return num;
+	}
 
-    /**
-     * Définit la valeur de la propriété num.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setNum(String value) {
-        this.num = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© num.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setNum(String value) {
+		this.num = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété pays.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPays() {
-        return pays;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© pays.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPays() {
+		return pays;
+	}
 
-    /**
-     * Définit la valeur de la propriété pays.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPays(String value) {
-        this.pays = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© pays.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPays(String value) {
+		this.pays = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété security.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSecurity() {
-        return security;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSecurity() {
+		return security;
+	}
 
-    /**
-     * Définit la valeur de la propriété security.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSecurity(String value) {
-        this.security = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSecurity(String value) {
+		this.security = value;
+	}
 
 }

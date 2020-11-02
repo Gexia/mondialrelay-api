@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2AdressePointRelaisResult"
-})
+@XmlType(name = "", propOrder = { "wsi2AdressePointRelaisResult" })
 @XmlRootElement(name = "WSI2_AdressePointRelaisResponse")
 public class WSI2AdressePointRelaisResponse {
 
-    @XmlElement(name = "WSI2_AdressePointRelaisResult")
-    protected RetWSI2AdressePointRelais wsi2AdressePointRelaisResult;
+	@XmlElement(name = "WSI2_AdressePointRelaisResult")
+	protected RetWSI2AdressePointRelais wsi2AdressePointRelaisResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2AdressePointRelaisResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI2AdressePointRelais }
-     *     
-     */
-    public RetWSI2AdressePointRelais getWSI2AdressePointRelaisResult() {
-        return wsi2AdressePointRelaisResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2AdressePointRelaisResult.
+	 * 
+	 * @return possible object is {@link RetWSI2AdressePointRelais }
+	 * 
+	 */
+	public RetWSI2AdressePointRelais getWSI2AdressePointRelaisResult() {
+		return wsi2AdressePointRelaisResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2AdressePointRelaisResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI2AdressePointRelais }
-     *     
-     */
-    public void setWSI2AdressePointRelaisResult(RetWSI2AdressePointRelais value) {
-        this.wsi2AdressePointRelaisResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2AdressePointRelaisResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI2AdressePointRelais }
+	 * 
+	 */
+	public void setWSI2AdressePointRelaisResult(RetWSI2AdressePointRelais value) {
+		this.wsi2AdressePointRelaisResult = value;
+	}
 
 }

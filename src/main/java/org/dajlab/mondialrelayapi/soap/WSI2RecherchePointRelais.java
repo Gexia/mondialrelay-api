@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -35,226 +37,193 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "enseigne",
-    "pays",
-    "ville",
-    "cp",
-    "taille",
-    "poids",
-    "action",
-    "security"
-})
+@XmlType(name = "", propOrder = { "enseigne", "pays", "ville", "cp", "taille", "poids", "action", "security" })
 @XmlRootElement(name = "WSI2_RecherchePointRelais")
 public class WSI2RecherchePointRelais {
 
-    @XmlElement(name = "Enseigne")
-    protected String enseigne;
-    @XmlElement(name = "Pays")
-    protected String pays;
-    @XmlElement(name = "Ville")
-    protected String ville;
-    @XmlElement(name = "CP")
-    protected String cp;
-    @XmlElement(name = "Taille")
-    protected String taille;
-    @XmlElement(name = "Poids")
-    protected String poids;
-    @XmlElement(name = "Action")
-    protected String action;
-    @XmlElement(name = "Security")
-    protected String security;
+	@XmlElement(name = "Enseigne")
+	protected String enseigne;
+	@XmlElement(name = "Pays")
+	protected String pays;
+	@XmlElement(name = "Ville")
+	protected String ville;
+	@XmlElement(name = "CP")
+	protected String cp;
+	@XmlElement(name = "Taille")
+	protected String taille;
+	@XmlElement(name = "Poids")
+	protected String poids;
+	@XmlElement(name = "Action")
+	protected String action;
+	@XmlElement(name = "Security")
+	protected String security;
 
-    /**
-     * Obtient la valeur de la propriété enseigne.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getEnseigne() {
-        return enseigne;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getEnseigne() {
+		return enseigne;
+	}
 
-    /**
-     * Définit la valeur de la propriété enseigne.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setEnseigne(String value) {
-        this.enseigne = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© enseigne.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setEnseigne(String value) {
+		this.enseigne = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété pays.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPays() {
-        return pays;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© pays.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPays() {
+		return pays;
+	}
 
-    /**
-     * Définit la valeur de la propriété pays.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPays(String value) {
-        this.pays = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© pays.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPays(String value) {
+		this.pays = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété ville.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getVille() {
-        return ville;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© ville.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getVille() {
+		return ville;
+	}
 
-    /**
-     * Définit la valeur de la propriété ville.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setVille(String value) {
-        this.ville = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© ville.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setVille(String value) {
+		this.ville = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété cp.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getCP() {
-        return cp;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© cp.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getCP() {
+		return cp;
+	}
 
-    /**
-     * Définit la valeur de la propriété cp.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setCP(String value) {
-        this.cp = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© cp.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setCP(String value) {
+		this.cp = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété taille.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getTaille() {
-        return taille;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© taille.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getTaille() {
+		return taille;
+	}
 
-    /**
-     * Définit la valeur de la propriété taille.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setTaille(String value) {
-        this.taille = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© taille.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setTaille(String value) {
+		this.taille = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété poids.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getPoids() {
-        return poids;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© poids.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getPoids() {
+		return poids;
+	}
 
-    /**
-     * Définit la valeur de la propriété poids.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setPoids(String value) {
-        this.poids = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© poids.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setPoids(String value) {
+		this.poids = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété action.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getAction() {
-        return action;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© action.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getAction() {
+		return action;
+	}
 
-    /**
-     * Définit la valeur de la propriété action.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setAction(String value) {
-        this.action = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© action.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setAction(String value) {
+		this.action = value;
+	}
 
-    /**
-     * Obtient la valeur de la propriété security.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSecurity() {
-        return security;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSecurity() {
+		return security;
+	}
 
-    /**
-     * Définit la valeur de la propriété security.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSecurity(String value) {
-        this.security = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© security.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSecurity(String value) {
+		this.security = value;
+	}
 
 }

@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSeeAlso;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour ret_ complex type.
+ * <p>
+ * Classe Java pour ret_ complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType name="ret_">
@@ -28,49 +30,35 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ret_", propOrder = {
-    "stat"
-})
-@XmlSeeAlso({
-    RetWSI2CreationExpedition.class,
-    RetWSI2TracingColisDetaille.class,
-    RetWSI2RecherchePointRelaisAvancee.class,
-    RetWSI3PointRelaisRecherche.class,
-    RetWSI2GetEtiquettes.class,
-    RetWSI2CreationEtiquette.class,
-    RetWSI2DetailPointRelais.class,
-    RetWSI2RechercheCP.class,
-    RetWSI2RecherchePointRelais.class,
-    RetWSI2RecherchePointRelaisHoraires.class,
-    RetWSI2AdressePointRelais.class
-})
+@XmlType(name = "ret_", propOrder = { "stat" })
+@XmlSeeAlso({ RetWSI2CreationExpedition.class, RetWSI2TracingColisDetaille.class,
+		RetWSI2RecherchePointRelaisAvancee.class, RetWSI3PointRelaisRecherche.class, RetWSI2GetEtiquettes.class,
+		RetWSI2CreationEtiquette.class, RetWSI2DetailPointRelais.class, RetWSI2RechercheCP.class,
+		RetWSI2RecherchePointRelais.class, RetWSI2RecherchePointRelaisHoraires.class, RetWSI2AdressePointRelais.class })
 public class Ret {
 
-    @XmlElement(name = "STAT")
-    protected String stat;
+	@XmlElement(name = "STAT")
+	protected String stat;
 
-    /**
-     * Obtient la valeur de la propriété stat.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getSTAT() {
-        return stat;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© stat.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getSTAT() {
+		return stat;
+	}
 
-    /**
-     * Définit la valeur de la propriété stat.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setSTAT(String value) {
-        this.stat = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© stat.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setSTAT(String value) {
+		this.stat = value;
+	}
 
 }

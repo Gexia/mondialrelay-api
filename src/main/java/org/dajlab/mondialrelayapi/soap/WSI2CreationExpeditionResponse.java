@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2CreationExpeditionResult"
-})
+@XmlType(name = "", propOrder = { "wsi2CreationExpeditionResult" })
 @XmlRootElement(name = "WSI2_CreationExpeditionResponse")
 public class WSI2CreationExpeditionResponse {
 
-    @XmlElement(name = "WSI2_CreationExpeditionResult")
-    protected RetWSI2CreationExpedition wsi2CreationExpeditionResult;
+	@XmlElement(name = "WSI2_CreationExpeditionResult")
+	protected RetWSI2CreationExpedition wsi2CreationExpeditionResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2CreationExpeditionResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI2CreationExpedition }
-     *     
-     */
-    public RetWSI2CreationExpedition getWSI2CreationExpeditionResult() {
-        return wsi2CreationExpeditionResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2CreationExpeditionResult.
+	 * 
+	 * @return possible object is {@link RetWSI2CreationExpedition }
+	 * 
+	 */
+	public RetWSI2CreationExpedition getWSI2CreationExpeditionResult() {
+		return wsi2CreationExpeditionResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2CreationExpeditionResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI2CreationExpedition }
-     *     
-     */
-    public void setWSI2CreationExpeditionResult(RetWSI2CreationExpedition value) {
-        this.wsi2CreationExpeditionResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2CreationExpeditionResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI2CreationExpedition }
+	 * 
+	 */
+	public void setWSI2CreationExpeditionResult(RetWSI2CreationExpedition value) {
+		this.wsi2CreationExpeditionResult = value;
+	}
 
 }

@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2RecherchePointRelaisHorairesResult"
-})
+@XmlType(name = "", propOrder = { "wsi2RecherchePointRelaisHorairesResult" })
 @XmlRootElement(name = "WSI2_RecherchePointRelaisHorairesResponse")
 public class WSI2RecherchePointRelaisHorairesResponse {
 
-    @XmlElement(name = "WSI2_RecherchePointRelaisHorairesResult")
-    protected RetWSI2RecherchePointRelaisHoraires wsi2RecherchePointRelaisHorairesResult;
+	@XmlElement(name = "WSI2_RecherchePointRelaisHorairesResult")
+	protected RetWSI2RecherchePointRelaisHoraires wsi2RecherchePointRelaisHorairesResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2RecherchePointRelaisHorairesResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI2RecherchePointRelaisHoraires }
-     *     
-     */
-    public RetWSI2RecherchePointRelaisHoraires getWSI2RecherchePointRelaisHorairesResult() {
-        return wsi2RecherchePointRelaisHorairesResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2RecherchePointRelaisHorairesResult.
+	 * 
+	 * @return possible object is {@link RetWSI2RecherchePointRelaisHoraires }
+	 * 
+	 */
+	public RetWSI2RecherchePointRelaisHoraires getWSI2RecherchePointRelaisHorairesResult() {
+		return wsi2RecherchePointRelaisHorairesResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2RecherchePointRelaisHorairesResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI2RecherchePointRelaisHoraires }
-     *     
-     */
-    public void setWSI2RecherchePointRelaisHorairesResult(RetWSI2RecherchePointRelaisHoraires value) {
-        this.wsi2RecherchePointRelaisHorairesResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2RecherchePointRelaisHorairesResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI2RecherchePointRelaisHoraires }
+	 * 
+	 */
+	public void setWSI2RecherchePointRelaisHorairesResult(RetWSI2RecherchePointRelaisHoraires value) {
+		this.wsi2RecherchePointRelaisHorairesResult = value;
+	}
 
 }

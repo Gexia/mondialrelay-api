@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi4PointRelaisRechercheResult"
-})
+@XmlType(name = "", propOrder = { "wsi4PointRelaisRechercheResult" })
 @XmlRootElement(name = "WSI4_PointRelais_RechercheResponse")
 public class WSI4PointRelaisRechercheResponse {
 
-    @XmlElement(name = "WSI4_PointRelais_RechercheResult")
-    protected RetWSI3PointRelaisRecherche wsi4PointRelaisRechercheResult;
+	@XmlElement(name = "WSI4_PointRelais_RechercheResult")
+	protected RetWSI3PointRelaisRecherche wsi4PointRelaisRechercheResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi4PointRelaisRechercheResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link RetWSI3PointRelaisRecherche }
-     *     
-     */
-    public RetWSI3PointRelaisRecherche getWSI4PointRelaisRechercheResult() {
-        return wsi4PointRelaisRechercheResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi4PointRelaisRechercheResult.
+	 * 
+	 * @return possible object is {@link RetWSI3PointRelaisRecherche }
+	 * 
+	 */
+	public RetWSI3PointRelaisRecherche getWSI4PointRelaisRechercheResult() {
+		return wsi4PointRelaisRechercheResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi4PointRelaisRechercheResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link RetWSI3PointRelaisRecherche }
-     *     
-     */
-    public void setWSI4PointRelaisRechercheResult(RetWSI3PointRelaisRecherche value) {
-        this.wsi4PointRelaisRechercheResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi4PointRelaisRechercheResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link RetWSI3PointRelaisRecherche }
+	 * 
+	 */
+	public void setWSI4PointRelaisRechercheResult(RetWSI3PointRelaisRecherche value) {
+		this.wsi4PointRelaisRechercheResult = value;
+	}
 
 }

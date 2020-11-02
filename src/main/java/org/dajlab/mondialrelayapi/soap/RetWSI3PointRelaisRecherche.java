@@ -6,11 +6,13 @@ import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour ret_WSI3_PointRelais_Recherche complex type.
+ * <p>
+ * Classe Java pour ret_WSI3_PointRelais_Recherche complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType name="ret_WSI3_PointRelais_Recherche">
@@ -27,38 +29,31 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "ret_WSI3_PointRelais_Recherche", propOrder = {
-    "pointsRelais"
-})
-public class RetWSI3PointRelaisRecherche
-    extends Ret
-{
+@XmlType(name = "ret_WSI3_PointRelais_Recherche", propOrder = { "pointsRelais" })
+public class RetWSI3PointRelaisRecherche extends Ret {
 
-    @XmlElement(name = "PointsRelais")
-    protected ArrayOfPointRelaisDetails pointsRelais;
+	@XmlElement(name = "PointsRelais")
+	protected ArrayOfPointRelaisDetails pointsRelais;
 
-    /**
-     * Obtient la valeur de la propriété pointsRelais.
-     * 
-     * @return
-     *     possible object is
-     *     {@link ArrayOfPointRelaisDetails }
-     *     
-     */
-    public ArrayOfPointRelaisDetails getPointsRelais() {
-        return pointsRelais;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© pointsRelais.
+	 * 
+	 * @return possible object is {@link ArrayOfPointRelaisDetails }
+	 * 
+	 */
+	public ArrayOfPointRelaisDetails getPointsRelais() {
+		return pointsRelais;
+	}
 
-    /**
-     * Définit la valeur de la propriété pointsRelais.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link ArrayOfPointRelaisDetails }
-     *     
-     */
-    public void setPointsRelais(ArrayOfPointRelaisDetails value) {
-        this.pointsRelais = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© pointsRelais.
+	 * 
+	 * @param value
+	 *            allowed object is {@link ArrayOfPointRelaisDetails }
+	 * 
+	 */
+	public void setPointsRelais(ArrayOfPointRelaisDetails value) {
+		this.pointsRelais = value;
+	}
 
 }

@@ -7,11 +7,13 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlType;
 
-
 /**
- * <p>Classe Java pour anonymous complex type.
+ * <p>
+ * Classe Java pour anonymous complex type.
  * 
- * <p>Le fragment de schéma suivant indique le contenu attendu figurant dans cette classe.
+ * <p>
+ * Le fragment de schÃ©ma suivant indique le contenu attendu figurant dans cette
+ * classe.
  * 
  * <pre>
  * &lt;complexType>
@@ -28,37 +30,32 @@ import javax.xml.bind.annotation.XmlType;
  * 
  */
 @XmlAccessorType(XmlAccessType.FIELD)
-@XmlType(name = "", propOrder = {
-    "wsi2STATLabelResult"
-})
+@XmlType(name = "", propOrder = { "wsi2STATLabelResult" })
 @XmlRootElement(name = "WSI2_STAT_LabelResponse")
 public class WSI2STATLabelResponse {
 
-    @XmlElement(name = "WSI2_STAT_LabelResult")
-    protected String wsi2STATLabelResult;
+	@XmlElement(name = "WSI2_STAT_LabelResult")
+	protected String wsi2STATLabelResult;
 
-    /**
-     * Obtient la valeur de la propriété wsi2STATLabelResult.
-     * 
-     * @return
-     *     possible object is
-     *     {@link String }
-     *     
-     */
-    public String getWSI2STATLabelResult() {
-        return wsi2STATLabelResult;
-    }
+	/**
+	 * Obtient la valeur de la propriÃ©tÃ© wsi2STATLabelResult.
+	 * 
+	 * @return possible object is {@link String }
+	 * 
+	 */
+	public String getWSI2STATLabelResult() {
+		return wsi2STATLabelResult;
+	}
 
-    /**
-     * Définit la valeur de la propriété wsi2STATLabelResult.
-     * 
-     * @param value
-     *     allowed object is
-     *     {@link String }
-     *     
-     */
-    public void setWSI2STATLabelResult(String value) {
-        this.wsi2STATLabelResult = value;
-    }
+	/**
+	 * DÃ©finit la valeur de la propriÃ©tÃ© wsi2STATLabelResult.
+	 * 
+	 * @param value
+	 *            allowed object is {@link String }
+	 * 
+	 */
+	public void setWSI2STATLabelResult(String value) {
+		this.wsi2STATLabelResult = value;
+	}
 
 }
