@@ -31,7 +31,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<jdk.version>1.8</jdk.version>
 
-		
+		<maven.test.skip>true</maven.test.skip>
 	</properties>
 
 	<build>
@@ -72,6 +72,9 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>3.0.1</version>
+				 <configuration>
+				 	 <excludePackageNames>org.dajlab.mondialrelayapi.soap</excludePackageNames>
+				 </configuration>
 				<executions>
 					<execution>
 						<id>attach-javadocs</id>
@@ -114,4 +117,23 @@
 		</dependency>
 
 	</dependencies>
+	
+	
+	<scm>
+		<connection>scm:git:git://github.com/e-amzallag/mondialrelay-api.git</connection>
+		<developerConnection>scm:git:ssh://github.com:e-amzallag/mondialrelay-api.git</developerConnection>
+		<url>http://github.com/e-amzallag/mondialrelay-api/tree/master</url>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>ossrh</id>
+			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+		</repository>
+	</distributionManagement>
+	
 </project>
